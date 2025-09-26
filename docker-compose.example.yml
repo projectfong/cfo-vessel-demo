@@ -1,0 +1,15 @@
+
+# --------------------------------------------------------
+# docker-compose.example.yml (demo only; local testing)
+# Do NOT expose these ports to the internet.
+# --------------------------------------------------------
+version: "3.9"
+services:
+  cfo_vessel_demo:
+    build: .
+    container_name: cfo-vessel-demo
+    environment:
+      - VESSEL_BIND=0.0.0.0
+      - VESSEL_PORT=8000
+    ports:
+      - "8000:8000"  # local access only
