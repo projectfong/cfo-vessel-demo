@@ -63,6 +63,16 @@
 
   ---
 
+  ## 🔹 Private Gitea Screenshot
+
+  Screenshot from local private Gitea repo (sensitive details redacted):
+
+  * **cfo-vessel repo**
+
+  ![Vessel](docs/vessel-local.png)
+  
+  ---
+
   ## 🔹 Disclaimer
   See [DISCLAIMER.md](./DISCLAIMER.md). This is a demo-only repository.
   Full production implementations remain private.
