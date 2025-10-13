@@ -1,4 +1,4 @@
-  # ⚙️ CFO Vessel (Demo)
+  # CFO Vessel (Demo)
 
   A **public-safe demo** of the Vessel engine. In the full system, Vessel is the
   model runtime that launches/loads local models, manages GPU/CPU memory, and exposes
@@ -6,7 +6,7 @@
 
   ---
 
-  ## 🔹 Quick Start
+  ## Quick Start
 
   ### Run with Docker
   ```bash
@@ -30,14 +30,14 @@
 
   ---
 
-  ## 🔹 API
+  ## API
 
   - `GET /api/healthz` -> `{"status":"ok"}`
   - `POST /api/infer` -> `{"output":"(demo) Generated response for: ...", "meta": {...}}`
 
   ---
 
-  ## 🔹 Sequence
+  ## Sequence
 
   ```mermaid
   sequenceDiagram
@@ -51,7 +51,7 @@
 
   ---
 
-  ## 🔹 Demo Screenshots
+  ## Demo Screenshots
 
   Screenshots from a local test environment (sensitive details redacted):
 
@@ -63,7 +63,7 @@
 
   ---
 
-  ## 🔹 Private Gitea Screenshot
+  ## Private Gitea Screenshot
 
   Screenshot from local private Gitea repo (sensitive details redacted):
 
@@ -73,12 +73,12 @@
   
   ---
 
-  ## 🔹 Disclaimer
+  ## Disclaimer
   See [DISCLAIMER.md](./DISCLAIMER.md). This is a demo-only repository.
   Full production implementations remain private.
 
-  ## 🔹 Security
+  ## Security
   See [SECURITY.md](./SECURITY.md). Do not expose demo services to the internet.
 
-  ## 🔹 License
+  ## License
   All Rights Reserved. See [LICENSE.md](./LICENSE.md).
